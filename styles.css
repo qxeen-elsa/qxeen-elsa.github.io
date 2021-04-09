@@ -1,11 +1,11 @@
 body {
-  background-color: powderblue;
+  background-color: lightcoral;
 }
 h1 {
-  color: blue;
+  color: crimson;
 }
 p {
-  color: red;
-  border: 2px solid orange;
+  color: gray;
+  border: 2px solid coral;
   padding: 30px;
 }
