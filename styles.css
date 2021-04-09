@@ -1,5 +1,5 @@
 body {
-  background-color: ivory;
+  background-color: DarkSlateGray;
 }
 h1 {
   color: purple;
@@ -8,11 +8,12 @@ h1 {
 }
 h2 {
   color:crimson;
-  text-align: center;
+  text-align: left;
   font-family: Impact, sans-serif;
 }
 p {
-  color: gray;
+  color: BlanchedAlmond;
+  text-align: left;
   border: 2px solid coral;
   padding: 30px;
   font-family: "Comic Sans MS", cursive, sans-serif;
