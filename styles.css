@@ -1,20 +1,30 @@
 body {
-  background-color: DarkSlateGray;
+  background-color: hsl(30,75,75);
+}
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  color: hsl(0,75,75)
 }
 h1 {
-  color: purple;
+  color: white;
   text-align: center;
   font-family: Impact, sans-serif;
 }
 h2 {
-  color:crimson;
+  color:white;
   text-align: left;
   font-family: Impact, sans-serif;
 }
 p {
-  color: BlanchedAlmond;
+  color: white;
   text-align: left;
-  border: 2px solid coral;
+  border: 2px solid hsl(0,75,75);
   padding: 30px;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
