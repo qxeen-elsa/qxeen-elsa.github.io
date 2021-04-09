@@ -1,5 +1,5 @@
 body {
-  background-color: hsl(30,75%,75%);
+  background-color: #efbf8f;
 }
 hr {
   display: block;
@@ -23,7 +23,7 @@ h2 {
 p {
   color: white;
   text-align: left;
-  border: 2px solid hsl(0,75%,75%);
+  border: 2px solid #ef8f8f;
   padding: 30px;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
