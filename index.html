@@ -12,13 +12,11 @@
 <h2>Links</h2>
 <p><a href="https://youtu.be/dQw4w9WgXcQ">Click</a> for cool website.</p>
 <p><a href="https://youtu.be/cWE0sSZ9yLc">Click</a> for another website.</p>
-<button class="button themeButton dark-mode" onclick="themeToggle()"><i class="fas fa-sun"></i>Toggle theme</button>
+<button class="button themeButton" onclick="themeToggle()"><i class="fas fa-sun"></i>Toggle theme</button>
 <script>
   function themeToggle() {
      var body = document.body;
-     var themeButton = document.themeButton;
      body.classList.toggle("dark-mode");
-     themeButton.classList.toggle("dark-mode");
   }
 </script>
 </body>
