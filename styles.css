@@ -1,18 +1,20 @@
 body {
-  background-color: #efbf8f;
+  background-color: whitesmoke;
+  color: black
+}
+.dark-mode {
+  background-color: black;
+  color: whitesmoke;
 }
 h1 {
-  color: white;
   text-align: center;
   font-family: Impact, sans-serif;
 }
 h2 {
-  color:white;
   text-align: left;
   font-family: Impact, sans-serif;
 }
 p {
-  color: white;
   text-align: left;
   border: 2px solid #ef8f8f;
   padding: 30px;
