@@ -40,9 +40,13 @@ p {
   right: 30px;
   background-color: gray;
   color: black; 
-  border: 2px solid coral;
+  border: 2px solid black;
   border-radius: 25px;
 }
 .themeButton:hover {
-  background-color: darkgray;
+  background-color: dimgray;
+}
+.themeButton:focus{
+  background-color: black;
+  border: white;
 }
