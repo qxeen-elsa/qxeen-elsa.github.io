@@ -34,12 +34,15 @@ p {
   transition-duration: 0.4s;
   cursor: pointer;
 }
-.button1 {
+.themeButton {
   position: absolute;
   top: 10px;
   right: 30px;
-  background-color: ivory;
+  background-color: gray;
   color: black; 
   border: 2px solid coral;
   border-radius: 25px;
+}
+.themeButton:hover {
+  background-color: darkgray;
 }
