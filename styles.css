@@ -6,6 +6,9 @@ body {
   background-color: black;
   color: whitesmoke;
 }
+title {
+  display: none;
+}
 h1 {
   text-align: center;
   font-family: Impact, sans-serif;
