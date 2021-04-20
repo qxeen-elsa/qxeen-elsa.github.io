@@ -46,7 +46,3 @@ p {
 .themeButton:hover {
   background-color: dimgray;
 }
-.themeButton:focus{
-  background-color: black;
-  border: white;
-}
