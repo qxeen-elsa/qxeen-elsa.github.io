@@ -46,3 +46,6 @@ p {
 .themeButton:hover {
   background-color: dimgray;
 }
+.linkButtonGroup{
+  display: block;
+}
