@@ -12,6 +12,13 @@
   <li><a href="index.html">Home</a></li>
   <li><a href="html/about.html">About</a></li>
   <li><a href="html/contact.html">Contact</a></li>
+  <li><button class="button themeButton" onclick="themeToggle()"><i class="fas fa-sun"></i></button>
+    <script>
+      function themeToggle() {
+        var body = document.body;
+        body.classList.toggle("dark-mode");
+      }
+    </script></li>
 </ul>
 
 <body>
@@ -23,13 +30,7 @@
     complete a lap before the sound, your test is over. The test will begin on the word start.</p>
   <h2>Links</h2>
 
-  <button class="button themeButton" onclick="themeToggle()"><i class="fas fa-sun"></i></button>
-  <script>
-    function themeToggle() {
-      var body = document.body;
-      body.classList.toggle("dark-mode");
-    }
-  </script>
+  
 
   <div class="linkButtonGroup">
     <a href="https://youtu.be/cWE0sSZ9yLc"><button class="button"><i class="fas fa-link"></i></button></a>
